@@ -2,18 +2,18 @@
 
 ## Pasos para ejecutar
 
-###1. Cargar dependencias
+### 1. Cargar dependencias
 ```bash
 npm install
 ```
-###2. Compilar sass y ejecutar gulp
+### 2. Compilar sass y ejecutar gulp
 ```bash
 npx gulp
 ```
-###3. Crear la base de datos
+### 3. Crear la base de datos
 Debes ejecutar el `bienesraices_crud.sql`
 
-###4. Crear los usuarios administradores con 
+### 4. Crear los usuarios administradores con 
 ```php
 <?php
 // Importar la conexión
@@ -36,5 +36,5 @@ $query = "INSERT INTO usuarios (email, password) VALUES ( '${email}', '${passwor
 mysqli_query($db, $query);
 ?>
 ```
-### Inquietudes
+###  Inquietudes
 Si hay problemas al cargar el sitio es probable que haya que editar el src y href en todos los formatos html. *Solo la ruta*
