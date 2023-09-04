@@ -1,0 +1,19 @@
+{
+    "name": "esteban/bienesraices",
+    "description": "Creando un proyecto inmobiliario con POO",
+    "autoload": { 
+        "psr-4": {
+            "Esteban\\Bienesraices\\": "src/",
+            "App\\" : "classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Esteban Gonzalez",
+            "email": "estebangonza2005@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    }
+}

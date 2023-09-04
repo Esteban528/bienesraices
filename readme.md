@@ -38,3 +38,4 @@ mysqli_query($db, $query);
 ```
 ###  Inquietudes
 Si hay problemas al cargar el sitio es probable que haya que editar el src y href en todos los formatos html. *Solo la ruta*
+Recuerde darle permisos (chmod 777 *en linux*) a la carpeta para que todo funcione correctamente

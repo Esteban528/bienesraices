@@ -1,6 +1,6 @@
 <?php 
 	//Conexion db
-	require 'includes/config/database.php';
+	require 'includes/app.php';
 	$db = conectarDB();
 
 	//Autenticar el formulario
@@ -59,7 +59,6 @@
 	}
 
 	//Header
-	require 'includes/funciones.php';
 	incluirTemplate("header");
 ?>
     <main class="contenedor seccion">

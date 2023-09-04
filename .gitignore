@@ -2,3 +2,5 @@ node_modules/
 buld/
 imagenes/
 package-lock.json
+
+/vendor/

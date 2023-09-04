@@ -1,11 +1,10 @@
 <?php 
-	require 'includes/funciones.php';
+	require 'includes/app.php';
 	incluirTemplate("header");
 		$id = $_GET['id'];
 		$id = filter_var($id, FILTER_VALIDATE_INT);
 	if ($id) {
 		// Conectar a la base de datos
-		require 'includes/config/database.php';
 		$db = conectarDB();
 
 		// Consultar
